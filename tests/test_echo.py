@@ -59,5 +59,5 @@ def test_post_with_x_www_form():
     data = response.json()
 
     assert response.status_code == 200
-    assert data["form"]["title"] == "Hell"
+    assert data["form"]["title"] == "Hello"
     assert data["form"]["content"] == "World"
