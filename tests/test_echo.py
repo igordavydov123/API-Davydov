@@ -1,6 +1,7 @@
 import pytest
 import requests
 
+
 BASE_URL = "https://postman-echo.com"
 
 def test_get():
